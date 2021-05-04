@@ -372,7 +372,7 @@
                     <div class="row">
                       <div class="col-8 col-sm-12 col-xl-8 my-auto">
                         <div class="d-flex d-sm-block d-md-flex align-items-center">
-                          <h2 class="mb-0">2</h2>
+                          <h2 class="mb-0" id ="app2"></h2>
                         </div>
                       </div>
                       <div class="col-4 col-sm-12 col-xl-4 text-center text-xl-right">
@@ -389,7 +389,7 @@
                     <div class="row">
                       <div class="col-8 col-sm-12 col-xl-8 my-auto">
                         <div class="d-flex d-sm-block d-md-flex align-items-center">
-                          <h2 class="mb-0">3</h2>
+                          <h2 class="mb-0" id ="app3"></h2>
                         </div>
                       </div>
                       <div class="col-4 col-sm-12 col-xl-4 text-center text-xl-right">
@@ -406,7 +406,7 @@
                     <div class="row">
                       <div class="col-8 col-sm-12 col-xl-8 my-auto">
                         <div class="d-flex d-sm-block d-md-flex align-items-center">
-                          <h2 class="mb-0">2</h2>
+                          <h2 class="mb-0" id ="app4"></h2>
                         </div>
                       </div>
                       <div class="col-4 col-sm-12 col-xl-4 text-center text-xl-right">
@@ -423,7 +423,7 @@
                     <div class="row">
                       <div class="col-8 col-sm-12 col-xl-8 my-auto">
                         <div class="d-flex d-sm-block d-md-flex align-items-center">
-                          <h2 class="mb-0" >22</h2>
+                          <h2 class="mb-0" id = "app5" ></h2>
                         </div>
                       </div>
                       <div class="col-4 col-sm-12 col-xl-4 text-center text-xl-right">
@@ -441,7 +441,7 @@
                     <div class="row">
                       <div class="col-8 col-sm-12 col-xl-8 my-auto">
                         <div class="d-flex d-sm-block d-md-flex align-items-center">
-                          <h2 class="mb-0" id="app2">39</h2>
+                          <h2 class="mb-0" id="app6"></h2>
                         </div>
                       </div>
                       <div class="col-4 col-sm-12 col-xl-4 text-center text-xl-right">
@@ -459,6 +459,10 @@
 			console.log(djangodata);
 			document.querySelector('#app').innerText = djangodata.message;
 			document.querySelector('#app2').innerText = djangodata.message2;
+			document.querySelector('#app3').innerText = djangodata.message3;
+			document.querySelector('#app4').innerText = djangodata.message4;
+			document.querySelector('#app5').innerText = djangodata.message5;
+			document.querySelector('#app6').innerText = djangodata.message6;
 
 		}
 		
